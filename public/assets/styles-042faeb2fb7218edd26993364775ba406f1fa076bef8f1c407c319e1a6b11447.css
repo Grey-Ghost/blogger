@@ -1,0 +1,38 @@
+/* line 3, /home/grey_ghost/odin/blogger/app/assets/stylesheets/styles.css.scss */
+body {
+  background-color: #AAA;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+/* line 11, /home/grey_ghost/odin/blogger/app/assets/stylesheets/styles.css.scss */
+a {
+  color: #0000FF;
+}
+/* line 13, /home/grey_ghost/odin/blogger/app/assets/stylesheets/styles.css.scss */
+a img {
+  border: none;
+}
+
+/* line 18, /home/grey_ghost/odin/blogger/app/assets/stylesheets/styles.css.scss */
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 24, /home/grey_ghost/odin/blogger/app/assets/stylesheets/styles.css.scss */
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+/* line 33, /home/grey_ghost/odin/blogger/app/assets/stylesheets/styles.css.scss */
+#content {
+  clear: both;
+  padding-top: 20px;
+}

@@ -10,7 +10,7 @@ git_source(:github) do |repo_name|
 
 end
 
-
+gem 'rake'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

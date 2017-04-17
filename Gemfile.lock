@@ -191,6 +191,7 @@ DEPENDENCIES
   paperclip
   puma (~> 3.7)
   rails (~> 5.1.0.rc1)
+  rake
   sass-rails!
   sorcery
   spring
