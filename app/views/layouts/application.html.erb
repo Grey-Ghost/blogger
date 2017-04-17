@@ -12,10 +12,10 @@
     <p class="flash">
       <%= flash.notice %>
     </p>
-    <%= link_to "Articles", articles_path %>
-    <%= link_to "Tags", tags_path %>
+    <%= link_to " Articles ", articles_path %>
+    <%= link_to " Tags ", tags_path %>
     <% if logged_in? %>
-    <%= link_to "Authors", authors_path %>
+    <%= link_to " Authors ", authors_path %>
     <% end %>
     <div id="container">
       <div id="content">
@@ -24,9 +24,9 @@
         <h6>
           <% if logged_in? %>
           <%= "Logged in as #{current_user.email}" %>
-          <%= link_to "(logout)", logout_path %>
+          <%= link_to " (logout) ", logout_path %>
         <% else %>
-          <%= link_to "(login)", login_path %>
+          <%= link_to " (login) ", login_path %>
         <% end %>
       </h6>
     </div>
