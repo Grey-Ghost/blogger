@@ -19,9 +19,7 @@ gem 'paperclip'
 
 gem 'rails', '~> 5.1.0.rc1'
 
-# Use sqlite3 as the database for Active Record
 
-gem 'sqlite3'
 
 # Use Puma as the app server
 
@@ -72,6 +70,7 @@ gem 'jbuilder', '~> 2.5'
 
 
 group :development, :test do
+  
   gem 'sqlite3'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
