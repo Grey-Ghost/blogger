@@ -11,9 +11,7 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'sorcery'
 
-gem 'paperclip'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
@@ -67,7 +65,9 @@ gem 'jbuilder', '~> 2.5'
 
 # gem 'capistrano-rails', group: :development
 
+gem 'sorcery'
 
+gem 'paperclip'
 
 group :development, :test do
 
@@ -77,11 +77,7 @@ group :development, :test do
 
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
-  # Adds support for Capybara system testing and selenium driver
 
-  gem 'capybara', '~> 2.13.0'
-
-  gem 'selenium-webdriver'
 
 end
 
@@ -107,7 +103,7 @@ end
 group :production do
 
   gem 'gp'
-  
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
