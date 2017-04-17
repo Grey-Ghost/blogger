@@ -12,7 +12,7 @@ end
 
 gem 'rake'
 
-
+gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 gem 'rails', '~> 5.1.0.rc1'
@@ -69,9 +69,10 @@ gem 'sorcery'
 
 gem 'paperclip'
 
+
+
 group :development, :test do
 
-  gem 'sqlite3'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
 
@@ -100,11 +101,7 @@ group :development do
 
 end
 
-group :production do
 
-  gem 'gp'
-
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 
