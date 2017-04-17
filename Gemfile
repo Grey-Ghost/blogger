@@ -70,7 +70,7 @@ gem 'jbuilder', '~> 2.5'
 
 
 group :development, :test do
-  
+
   gem 'sqlite3'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -88,7 +88,7 @@ end
 
 
 group :development do
-  gem 'gp'
+
 
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
 
@@ -104,7 +104,11 @@ group :development do
 
 end
 
+group :production do
 
+  gem 'gp'
+  
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 
